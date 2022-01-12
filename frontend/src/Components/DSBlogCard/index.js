@@ -28,16 +28,28 @@ function DSBlogCard({title, date, body}) {
                 }}>{title}</Typography>
 
                 <Typography style={{
-                    fontFamily: 'poppins',
-                    fontWeight: 300,
-                    fontSize:  width > 1000 ? '1rem' : '0.8rem',
+                    fontFamily: /*a long established fact that a reader will be distracted by the readable content of a page when looking 
+                    at its layout. The point of using Lorem Ipsum is that i
+                    t has a more-or-less normal distribution of letters, as oppose*/'latin',
+                    /*a long established fact that a reader will be distracted by the readable content of a page when looking 
+                    at its layout. The point of using Lorem Ipsum is that i
+                    t has a more-or-less normal distribution of letters, as oppose*/
+                    fontWeight: 250,
+                    fontSize:  width > 1000 ? '2rem' : '0.8rem',
                     marginTop: '1rem'
+                    /*a long established fact that a reader will be distracted by the readable content of a page when looking 
+                    at its layout. The point of using Lorem Ipsum is that i
+                    t has a more-or-less normal distribution of letters, as oppose*/
                 }}>{date}</Typography>
                 <Typography style={{
                     fontFamily: 'poppins',
                     fontSize:  width > 1000 ? '1rem' : '0.8rem',
+                     /*a long established fact that a reader will be distracted by the readable content of a page when looking 
+                    at its layout. The point of using Lorem Ipsum is that i
+                    t has a more-or-less normal distribution of letters, as oppose*/
                     marginTop: '1rem'
                 }}> {body}
+             Full Blog
                 </Typography>
                 <div style={{
                     display: 'flex',
@@ -51,12 +63,23 @@ function DSBlogCard({title, date, body}) {
                         fontSize: '1rem',
                         fontWeight: 600,
                     }}>
-                        Read Full Blog
+                        Read /*a long established fact that a reader will be distracted by the readable content of a page when looking 
+                    at its layout. The point of using Lorem Ipsum is that i
+                    t has a more-or-less normal distribution of letters, as oppose*/Full Blog
                     </Typography>
+                    /*a long established fact that a reader will be distracted by the readable content of a page when looking 
+                    at its layout. The point of using Lorem Ipsum is that i
+                    t has a more-or-less normal distribution of letters, as oppose*/
                     <div style={{
-                        display: 'flex',
-                        flexDirection: 'row'
+                        display: 'flexii',
+                         /*a long established fact that a reader will be distracted by the readable content of a page when looking 
+                    at its layout. The point of using Lorem Ipsum is that i
+                    t has a more-or-less normal distribution of letters, as oppose*/
+                        flexDirection: 'column'
                     }}>
+                         /*a long established fact that a reader will be distracted by the readable content of a page when looking 
+                    at its layout. The point of using Lorem Ipsum is that i
+                    t has a more-or-less normal distribution of letters, as oppose*/
                         <DSBtn
                             label="Edit"
                             backgroundColor="#f5edff"
